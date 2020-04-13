@@ -113,30 +113,46 @@ experiences:
         - Developed UI and back-end services for an internal job-portal
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Business Anomaly Detection Tool
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A ML based tool to detect business anomalies by monitoring and predicting transaction metrics"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Restaurant Search Chatbot
+        link: "https://youtu.be/pk8dYb_sg-U"
+        tagline: "A restaurant search chatbot deployed on slack on top of Zomato api’s. The bot can search for restaurant taking location, cuisine and budget as input from the user. The chatbot was implemented as an assignment for the PGD ML & AI course."
 
-      - title: Atom
+      - title: RL based system for assisting cab drivers
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "An RL-based algorithm which can help cab drivers maximise their profits by improving their decision-making process on the field. The system was implemented as an assignment for the PGD ML & AI course."
 
-      - title: Delta
+      - title: Experimentation platform to run A/B tests
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A platform built using facebook planout and drools to define, run and track server-side experiments."
+
+      - title: Data Ingestion Pipeline Monitoring Application
+        link: "#"
+        tagline: "An application to monitor the various components of data ingestion pipeline (kafka/sjs/spark cluster)."
+
+      - title: Data Ingestion Pipeline for timeseries data
+        link: "#"
+        tagline: "A stateful ingestion pipeline written in spark to read device data from kafka topics and persist in big-data store."
+
+      - title: Thing Model Services for IoT Application Enablement
+        link: "#"
+        tagline: "A set of REST APIs to enable modelling of real-world things into the system (as digital twin)."
+
+      - title: Big-Data migration
+        link: "#"
+        tagline: "A worker application written in Java to migrate data from non big-data store to big-data store."
+
+      - title: Scholar Portal
+        link: "#"
+        tagline: "An internal job portal where managers would post job openings and scholars could apply for the same."
 
 publications:
     title: Publications / Presentations
@@ -151,20 +167,26 @@ skills:
       - name: Python
         level: 70%
 
-      - name: Java
-        level: 90%
+      - name: Pandas, Numpy
+        level: 70%
+
+      - name: Matplotlib, Seaborn, Plotly
+        level: 60%
+
+      - name: Scipy, Scikit-Learn
+        level: 60%
+
+      - name: Spark, Kafka, Cassandra, Delta
+        level: 75%
 
       - name: SQL, Redshift
         level: 80%
 
-      - name: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Scikit-Learn
-        level: 70%
+      - name: Java
+        level: 90%
 
       - name: Spring, Jersey JAX-RS, Swagger, ANTLR
         level: 80%
-
-      - name: Spark, Kafka, Cassandra, Delta
-        level: 75%
 
       - name: Javascript, Node.js, jQuery
         level: 40%
